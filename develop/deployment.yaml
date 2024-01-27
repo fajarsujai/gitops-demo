@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: ghw-deployment-dev
 spec:
-  replicas: 1
+  replicas: 3
   selector:
     matchLabels:
       app: ghw-deployment-dev
